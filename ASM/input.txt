@@ -1,0 +1,13 @@
+lw $z $z
+adda $z $s0
+add $z $z
+addi 1
+lw $z $ac
+adda $z $s1
+stl $s0 $s1
+adda $z $t0
+add $z $z
+addi 2
+adda $z $t1
+add $z $t0
+sw $z $t1
